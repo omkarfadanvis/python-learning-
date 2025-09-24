@@ -38,10 +38,41 @@
 # print("even number sum is:", even_sum)
 # print("odd number sum is:", odd_sum)
 
-number = 3
+# number = 3
 
-for i in range (1, 11):
-    if i == 5:
-        continue
-    print(number *i)
+# for i in range (1, 11):
+#     if i == 5:
+#         continue
+#     print(number *i)
 
+# input_str =  "ommmakkaar"
+
+# for char in input_str:                
+#     print(char)                       i want to know can i display the output of the repeated letters only once 
+#     if input_str.count(char) > 1:
+#         print(f"{char} is a duplicate character")
+#         break
+
+# i =input("Enter a number: ")
+# i = int(i)
+# count = 1
+# while i > 0:
+#     count = count * i
+#     i = i -1 
+
+# print("Factorial is:", count)
+
+# while True:
+#     n = int(input("Enter a number: "))
+#     if 1 <= n <= 10:
+#         print ("Valid input")
+#     else:
+#         print ("Invalid input")
+
+num = int(input("Enter a number: "))
+for  i in range(2,num):
+    if (num % i) == 0:
+        print(f'{num} is not a prime number')
+        break
+else:
+     print(f"{num} is a prime number")
